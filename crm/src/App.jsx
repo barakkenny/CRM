@@ -1,11 +1,13 @@
 
-import './App.css'
+import Login from './pages/auth/login'
+import Signup from './pages/auth/signup'
 
 function App() {
 
   return (
-    <div className="text-red-500">
-      hello world
+    <div>
+      {/* <Login /> */}
+      <Signup />
     </div>
   )
 }
